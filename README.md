@@ -99,13 +99,13 @@ Right-click on the directory -> New -> File -> odoo.conf
 
 > [options]
 > ; Is This The Password That Allows Database Operations:
-> admin_passwd = admin
-> db_host = localhost
-> db_port = 5432
-> db_user = odoo14
-> db_password = False
-> addons_path = /home/user/odoo/addons
-> xmlrpc_port = 8015
+admin_passwd = admin
+db_host = localhost
+db_port = 5432
+db_user = odoo14
+db_password = False
+addons_path = /home/user/odoo/addons
+xmlrpc_port = 8015
 
 
 ## Add Python Interpreter
