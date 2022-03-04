@@ -3,7 +3,7 @@ Set up Odoo ERP using Pycharm
 
 
 ## Download Pycharm
-#Or Open Terminal (you can use Ctrl + Alt + T to open terminal) and execute the following commands:
+### Or Open Terminal (you can use Ctrl + Alt + T to open terminal) and execute the following commands:
 
 > sudo apt-get update 
 > sudo apt-get upgrade
@@ -33,7 +33,7 @@ If you require to print reports that are generated in Odoo you need to install W
 > sudo dpkg -i wkhtmltox_0.12.5-1.bionic_amd64.deb 
 > sudo apt install -f
 
-##Install PostgreSQL
+## Install PostgreSQL
 Next, we have to install PostgreSQL:
 
 > sudo apt-get install postgresql
