@@ -52,7 +52,7 @@ Next, we have to install PostgreSQL:
 
 ## Make the defined user as a superuser
 > psql
-> ALTER USER odoo15 WITH SUPERUSER;
+> ALTER USER odoo14 WITH SUPERUSER;
 
 exit form sql and also Postgres User
 > \q
