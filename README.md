@@ -30,7 +30,9 @@ Next, we have to install the web dependencies:
  ## Install the Wkhtmltopdf
 If you require to print reports that are generated in Odoo you need to install Wkhtmltopdfwhich can be done using the following code:
 > sudo wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.bionic_amd64.deb 
+> 
 > sudo dpkg -i wkhtmltox_0.12.5-1.bionic_amd64.deb 
+> 
 > sudo apt install -f
 
 ## Install PostgreSQL
