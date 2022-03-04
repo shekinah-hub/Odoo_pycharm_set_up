@@ -6,7 +6,9 @@ Set up Odoo ERP using Pycharm
 ### Or Open Terminal (you can use Ctrl + Alt + T to open terminal) and execute the following commands:
 
 > sudo apt-get update 
+> 
 > sudo apt-get upgrade
+> 
 > sudo snap install pycharm-community --classic
 
  ## Install Python3 and necessary packages
@@ -100,11 +102,17 @@ Right-click on the directory -> New -> File -> odoo.conf
 > [options]
 > ; Is This The Password That Allows Database Operations:
 admin_passwd = admin
+
 db_host = localhost
+
 db_port = 5432
+
 db_user = odoo14
+
 db_password = False
+
 addons_path = /home/user/odoo/addons
+
 xmlrpc_port = 8015
 
 
