@@ -5,19 +5,19 @@ Set up Odoo ERP using Pycharm
 ## Download Pycharm
 #Or Open Terminal (you can use Ctrl + Alt + T to open terminal) and execute the following commands:
 
-sudo apt-get update 
-sudo apt-get upgrade
-sudo snap install pycharm-community --classic
+> sudo apt-get update 
+> sudo apt-get upgrade
+> sudo snap install pycharm-community --classic
 
  ## Install Python3 and necessary packages
 
 We can install the Python3 using the following command:
 
-sudo apt-get install -y python3-pip
+> sudo apt-get install -y python3-pip
 
 ## The installation of the necessary packages for the Python3 can be done using the following code:
 
-sudo apt-get install python-dev python3-dev build-essential libjpeg-dev libpq-dev libjpeg8-dev libxml2-dev libssl-dev libffi-dev libmysqlclient-dev libxslt1-dev zlib1g-dev libsasl2-dev libldap2-dev liblcms2-dev
+> sudo apt-get install python-dev python3-dev build-essential libjpeg-dev libpq-dev libjpeg8-dev libxml2-dev libssl-dev libffi-dev libmysqlclient-dev libxslt1-dev zlib1g-dev libsasl2-dev libldap2-dev liblcms2-dev
 
 ## Install Web dependencies
 Next, we have to install the web dependencies:
