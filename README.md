@@ -89,9 +89,9 @@ run
 > mkdir data
 
 ## Open Odoo Project in Pycharm
-Open Pycharm Community and Open odoo15 directory
+Open Pycharm Community and Open odoo14 directory
 
-## Create odoo.conf File inside odoo15 Directory
+## Create odoo.conf File inside odoo14 Directory
 
 Right-click on the directory -> New -> File -> odoo.conf
 
@@ -102,7 +102,7 @@ Right-click on the directory -> New -> File -> odoo.conf
 > admin_passwd = admin
 > db_host = localhost
 > db_port = 5432
-> db_user = odoo15
+> db_user = odoo14
 > db_password = False
 > addons_path = /home/user/odoo/addons
 > xmlrpc_port = 8015
